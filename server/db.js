@@ -1,5 +1,5 @@
 const Pool = require("pg").Pool
-const secrets = require('./secrets');
+const secrets = require('./secret.js');
 
 const pool = new Pool({
     user: "postgres",
