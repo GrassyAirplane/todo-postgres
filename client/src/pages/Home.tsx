@@ -1,9 +1,15 @@
+import InputTodo from "../components/InputTodo"
+import TodoTable from "../components/TodoTable";
+
 const Home = () => {
     return(
         <>
-            <h1>Hello!.</h1>
+            <main>
+                <InputTodo />
+                <TodoTable />
+            </main>
         </>
     )
 }
 
-export default Home
+export default Home;

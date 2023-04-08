@@ -1,0 +1,18 @@
+h1 {
+    color: rgb(98,249,213);
+}
+
+.search-bar {
+    /* background-color: rgb(204,214,246); */
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    color: rgb(98,249,213);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    /* border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden; */
+}
