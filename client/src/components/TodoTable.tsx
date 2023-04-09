@@ -24,6 +24,10 @@ const TodoTable = () => {
         getTodos()
     };
 
+    const updateTodo = () => {
+        getTodos()
+    };
+    
     useEffect(() => {
         getTodos();
     }, []);
@@ -48,6 +52,7 @@ const TodoTable = () => {
                                 id={todo.todo_id}
                                 description={todo.description}
                                 onDelete={handleDeleteTodo}
+                                onUpdate={updateTodo}
                             />
                             ))}
                         </tbody>
