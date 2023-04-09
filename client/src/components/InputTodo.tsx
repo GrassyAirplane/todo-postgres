@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./InputTodo.css"
+import axios from "axios"
 
 const InputTodo = () => {
     const [description, setDescription] = useState("")
@@ -15,9 +16,10 @@ const InputTodo = () => {
             })
             
             console.log(response)
+
             // setDescription("")
             window.location.assign("/");
-        } catch (error) {
+        } catch (error) {   
             console.error(error)
         }
     }

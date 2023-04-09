@@ -1,3 +1,24 @@
 h2 {
     color: rgb(204,214,246);
 }
+
+.the-table {
+    border: 1px solid white;
+    color: whitesmoke;
+    max-height: 50vh;
+    max-width: 10rem;
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.the-table thead {
+    border-bottom: 1px solid black; /* Add a solid black border bottom to thead */
+    color: rgb(98,249,213);
+}
+
+.the-table td {
+    padding: 8px; /* Add some padding to the td elements for better readability */
+    border: 1px solid black; /* Add a black border around each td element */
+    text-align: center; /* Set the text alignment to left for each td element */
+}
